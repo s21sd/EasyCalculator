@@ -1,0 +1,76 @@
+.main-container {
+    position: relative;
+    width: 325px;
+    height: 590px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 12px 32px;
+    background: #c1cdde;
+    box-shadow: -3px -3px 7px #ffffff73,
+        2px 2px 5px rgba(94, 104, 121, 0.288);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.switch{
+    text-align: right;
+
+}
+
+.main-container .result {
+    font-size: 3rem;
+    margin: 15px;
+    box-shadow: inset 2px 2px 5px #babecc,
+        inset -5px -5px 10px #ffffff73;
+    position: absolute;
+    top: 21px;
+    right: 20px;
+    height: 22%;
+    width: 81%;
+    text-align: right;
+    border: none;
+    background-origin: padding-box;
+    background-color: #ffffff73;
+}
+
+.btn-container {
+    position: absolute;
+    width: 80%;
+    bottom: 60px;
+
+}
+.switch{
+    position: absolute;
+    right: 21px;
+}
+
+button {
+    background-color: #c1cdde;
+
+}
+
+.btn-class {
+    cursor: grab;
+    text-align: center;
+    height: 60px;
+    text-align: center;
+    border-radius: 70%;
+    border: none;
+    box-shadow: 2px 2px 5px #babecc,
+        -5px -5px 10px #ffffff73;
+    margin: 8px;
+    padding: 2px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.btn-class:hover {
+    color: #80a8e1;
+}
